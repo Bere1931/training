@@ -34,7 +34,7 @@ fun main() {
         }
         2 ->{
             println("Cambio de edad")
-            println
+            println()
         }
     }
 }
