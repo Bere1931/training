@@ -43,9 +43,15 @@ fun main() {
             println("El nombre es $newName")
             println("Tu edad es: ${dataUs.age}")
         }
-        2 ->{
+
+        2 -> {
             println("Cambio de edad")
             println()
+        }
+
+        3 -> {
+            println("Esta opcion borra usuarios")
+
         }
     }
 }
