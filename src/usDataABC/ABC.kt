@@ -38,19 +38,19 @@ fun main() {
         1 -> {
             println("Cambio de nombre")
             println("Coloca el nuevo nombre")
-
-            val newName = scanner.nextLine()
+            val newName = scanner.next()
             dataUs.name = newName
-            println("El nombre es $newName")
+            println("El nombre actualizado es ${dataUs.name}")
             println("Tu edad es: ${dataUs.age}")
         }
 
         2 -> {
             println("Cambio de edad")
             println("Tu nombre es: ${dataUs.name}")
-            println("Tu edad es:")
+            println("Ingresa tu edad:")
             val newAge = scanner.nextInt()
             dataUs.age = newAge
+            println("La edad actualizada es: ${dataUs.age}")
         }
 
         3 -> {
