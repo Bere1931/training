@@ -2,6 +2,7 @@ package estructureSlack.menuPrincipal
 
 import java.util.Scanner
 import estructureSlack.menuPrincipal.ifElse.IfElseEstructure
+import estructureSlack.menuPrincipal.whileEstruc.WhileEstructure
 
 class MenuPrincipal {
 
@@ -38,7 +39,8 @@ class MenuPrincipal {
             }
 
             2 -> {
-
+                val whileEs = WhileEstructure()
+                whileEs.whileEstru()
                 //Aqui se mostrara la estructura While
             }
 
