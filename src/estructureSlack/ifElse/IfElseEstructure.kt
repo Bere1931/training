@@ -1,4 +1,4 @@
-package estructureSlack.menuPrincipal.ifElse
+package estructureSlack.ifElse
 
 import estructureSlack.menuPrincipal.MenuPrincipal
 
@@ -16,7 +16,8 @@ class IfElseEstructure {
         val num3 = optionMenu.choseOne()
 
         if (num1 + num2 < num3) println("la suma es ${num1 + num2} que es menor a $num3")
-            else(println("La suma es mayor al número elegido"))
+            else(println("${num1 + num2} es mayor o igual al número $num3"))
+                println("Nos vemos")
 
 
     }

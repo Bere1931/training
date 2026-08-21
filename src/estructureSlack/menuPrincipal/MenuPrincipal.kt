@@ -1,7 +1,11 @@
 package estructureSlack.menuPrincipal
 
 import java.util.Scanner
-import estructureSlack.menuPrincipal.ifElse.IfElseEstructure
+import estructureSlack.ifElse.IfElseEstructure
+import estructureSlack.whileEstruc.WhileEstructure
+import estructureSlack.doWhileEstruc.DoWhileEstructure
+import estructureSlack.whenEstruct.WhenEstructure
+import estructureSlack.whenForEstruc.WhenForEstructure
 
 class MenuPrincipal {
 
@@ -16,6 +20,16 @@ class MenuPrincipal {
         println("Selecciona la opción que deseas resolver")
     }
 
+    fun forEstructure(){
+        println("1. For normal")
+        println("2. For al reverso")
+        println("3. For hasta que cierto numero")
+        println("4. For por intervalos")
+        println("5. For lista")
+        println("6. For para recorrer listas con indices")
+        println("7. Regresa al menu principal")
+    }
+
     fun choseOne(): Int {
         val scanner: Scanner = Scanner(System.`in`)
         return scanner.nextInt()
@@ -28,31 +42,41 @@ class MenuPrincipal {
     }
 
     fun chosenOne(choseOne: Int){
-
-        when(choseOne){
-
+        when (choseOne) {
             1 -> {
                 val ifElse = IfElseEstructure()
                 ifElse.ifElseEstru()
-            //Aqui se mostrara la estructura If - Else
-            }
+                    //Aqui se mostrara la estructura If - Else
+                }
 
             2 -> {
-
-                //Aqui se mostrara la estructura While
-            }
+                val whileEs = WhileEstructure()
+                whileEs.whileEstruct()
+                    //Aqui se mostrara la estructura While
+                }
 
             3 -> {
-                //Aqui se mostrara la estructura Do -While
-            }
+                val doWhileEs = DoWhileEstructure()
+                doWhileEs.doWhileEstruct()
+                    //Aqui se mostrara la estructura Do -While
+                }
 
             4 -> {
-                //Aqui se mostrara la estructura When
-            }
+                val whenEs = WhenEstructure()
+                whenEs.whenEstruct()
+                    //Aqui se mostrara la estructura When
+                }
 
-            2 -> {
+            5 -> {
+                forEstructure()
+
+                    val ultimate = choseOne()
+                while(ultimate != 6){
+                    val whenForEs = WhenForEstructure()
+                    whenForEs.whenForEstruct()
                 //Aqui se mostrara la estructura For
-            }
+                    }
+                }
         }
     }
 }
