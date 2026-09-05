@@ -4,40 +4,40 @@ import estructureSlack.menuPrincipal.MenuPrincipal
 
 class WhenForEstructure {
 
-    fun whenForEstruct() {
+    fun whenForEstructure2() {
 
             val started = MenuPrincipal()
             val option1 = started.choseOne()
 
             when (option1) {
                 1 -> {
-                    val forEstruc1 = ForEstructure()
-                    forEstruc1.forNormal()
+                    val forEstructure3 = ForEstructure()
+                    forEstructure3.forNormal()
                 }
 
                 2 -> {
-                    val forEstruc2 = ForEstructure()
-                    forEstruc2.forReverso()
+                    val forEstructure4 = ForEstructure()
+                    forEstructure4.forReverso()
                 }
 
                 3 -> {
-                    val forEstruc3 = ForEstructure()
-                    forEstruc3.forHastaNum()
+                    val forEstructure5 = ForEstructure()
+                    forEstructure5.forHastaNum()
                 }
 
                 4 -> {
-                    val forEstruc4 = ForEstructure()
-                    forEstruc4.forInterva()
+                    val forEstructure6 = ForEstructure()
+                    forEstructure6.forInterva()
                 }
 
                 5 -> {
-                    val forEstruc5 = ForEstructure()
-                    forEstruc5.forLista()
+                    val forEstructure7 = ForEstructure()
+                    forEstructure7.forLista()
                 }
 
                 6 -> {
-                    val forEstruc6 = ForEstructure()
-                    forEstruc6.forListaIndice()
+                    val forEstructure8 = ForEstructure()
+                    forEstructure8.forListaIndice()
                 }
 
         }

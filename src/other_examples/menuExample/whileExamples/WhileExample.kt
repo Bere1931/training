@@ -1,10 +1,11 @@
-package menuExample.doWhile
+package other_examples.menuExample.whileExamples
 
-import menuExample.mainMenu.Mainmenu
+import other_examples.menuExample.mainMenu.Mainmenu
 
-class DoWhileExample {
+class WhileExample {
 
-    fun doWhileExercise() {
+    fun whileExercise() {
+
         println("Este es un contador de numeros")
         println("Ingresa el numero que quieres mostrar en tu contador")
         val mainMenu = Mainmenu()
@@ -12,9 +13,9 @@ class DoWhileExample {
 
         var contador: Int = 0
 
-       do {
+        while (contador <= numb){
             println("Contador: $contador")
             contador++
-        } while (contador <= numb)
+        }
     }
 }

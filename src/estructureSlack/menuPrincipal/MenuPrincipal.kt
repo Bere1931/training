@@ -45,25 +45,25 @@ class MenuPrincipal {
         when (choseOne) {
             1 -> {
                 val ifElse = IfElseEstructure()
-                ifElse.ifElseEstru()
+                ifElse.ifElseEstructure1()
                     //Aqui se mostrara la estructura If - Else
                 }
 
             2 -> {
                 val whileEs = WhileEstructure()
-                whileEs.whileEstruct()
+                whileEs.whileEstructure1()
                     //Aqui se mostrara la estructura While
                 }
 
             3 -> {
                 val doWhileEs = DoWhileEstructure()
-                doWhileEs.doWhileEstruct()
+                doWhileEs.doWhileEstructure1()
                     //Aqui se mostrara la estructura Do -While
                 }
 
             4 -> {
                 val whenEs = WhenEstructure()
-                whenEs.whenEstruct()
+                whenEs.whenEstructure1()
                     //Aqui se mostrara la estructura When
                 }
 
@@ -73,7 +73,7 @@ class MenuPrincipal {
                     val ultimate = choseOne()
                 while(ultimate != 6){
                     val whenForEs = WhenForEstructure()
-                    whenForEs.whenForEstruct()
+                    whenForEs.whenForEstructure2()
                 //Aqui se mostrara la estructura For
                     }
                 }

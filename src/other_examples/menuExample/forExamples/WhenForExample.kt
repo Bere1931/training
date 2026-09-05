@@ -1,6 +1,6 @@
-package menuExample.forExamples
+package other_examples.menuExample.forExamples
 
-import menuExample.mainMenu.Mainmenu
+import other_examples.menuExample.mainMenu.Mainmenu
 
 class WhenForExample {
 

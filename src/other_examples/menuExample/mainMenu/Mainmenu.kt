@@ -1,10 +1,10 @@
-package menuExample.mainMenu
+package other_examples.menuExample.mainMenu
 
-import menuExample.doWhile.DoWhileExample
-import menuExample.forExamples.WhenForExample
-import menuExample.ifElseExcercise.Ifelseexcercise
-import menuExample.whenExample.WhenExample
-import menuExample.whileExamples.WhileExample
+import other_examples.menuExample.doWhile.DoWhileExample
+import other_examples.menuExample.forExamples.WhenForExample
+import other_examples.menuExample.ifElseExcercise.Ifelseexcercise
+import other_examples.menuExample.whenExample.WhenExample
+import other_examples.menuExample.whileExamples.WhileExample
 import java.util.*
 
 

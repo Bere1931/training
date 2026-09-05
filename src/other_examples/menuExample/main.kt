@@ -1,7 +1,7 @@
-package menuExample
+package other_examples.menuExample
 
 import Person
-import menuExample.mainMenu.Mainmenu
+import other_examples.menuExample.mainMenu.Mainmenu
 
 fun main() {
 

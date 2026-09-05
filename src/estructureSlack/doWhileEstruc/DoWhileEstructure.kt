@@ -4,7 +4,7 @@ import estructureSlack.menuPrincipal.MenuPrincipal
 
 class DoWhileEstructure {
 
-    fun doWhileEstruct(){
+    fun doWhileEstructure1(){
 
         do{
             println("1.Continuar")

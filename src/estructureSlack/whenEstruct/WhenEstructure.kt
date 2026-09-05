@@ -4,7 +4,7 @@ import estructureSlack.menuPrincipal.MenuPrincipal
 
 class WhenEstructure {
 
-    fun whenEstruct(){
+    fun whenEstructure1(){
 
         do{
             println("Selecciona una opcion")

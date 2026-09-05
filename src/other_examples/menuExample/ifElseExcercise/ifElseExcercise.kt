@@ -1,6 +1,6 @@
-package menuExample.ifElseExcercise
+package other_examples.menuExample.ifElseExcercise
 
-import menuExample.mainMenu.Mainmenu
+import other_examples.menuExample.mainMenu.Mainmenu
 
 class Ifelseexcercise {
 

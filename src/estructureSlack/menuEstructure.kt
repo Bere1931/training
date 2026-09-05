@@ -8,8 +8,6 @@ fun main() {
         val menuPrime = MenuPrincipal()
         menuPrime.optionEstructure()
         menuPrime.chosenOne(menuPrime.choseOne())
-        println("Esta opcion no es valida")
-        break
     }
 }
 
