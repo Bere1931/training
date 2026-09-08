@@ -7,7 +7,7 @@ class IfElseEstructure {
     fun ifElseEstructure1() {
 
         val optionMenu = MenuPrincipal()
-        println("Este ejercicio resuelve si la suma de dos números es menor, mayor o igual a un número")
+        println("Este ejercicio muestra si la suma de dos números es menor, mayor o igual a un número")
         println("Ingresa tu primer número")
         val num1 = optionMenu.choseOne()
         println("Ingresa tu segundo número")
