@@ -7,8 +7,9 @@ class DoWhileEstructure {
     fun doWhileEstructure1(){
 
         do{
-            println("1.Continuar")
-            println("2.Salir")
+            println("Por favor selecciona la opcion que deseas")
+            println("1.Continuar en este menu")
+            println("2.Salir de este menu")
             val menuPrincipal = MenuPrincipal()
             val election = menuPrincipal.choseOne()
                 if(election == 2){
