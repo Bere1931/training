@@ -4,21 +4,29 @@ import estructureSlack.menuPrincipal.MenuPrincipal
 
 class WhileEstructure {
 
-    fun whileEstructure1(){
+    fun whileEstructure1() {
 
-        while(true) {
-            println("Menude dos opciones, si quieres seguir en este debes seleccionar la opción 1")
-            println("si quieres salir selecciona la opcion dos y regresaras al menu principal")
-            println("1. Continuar en este menu")
-            println("2. Salir de este menu")
-            val menuPrincipal = MenuPrincipal()
-            val election = menuPrincipal.choseOne()
-            if (election == 2) {
-                println("Nos vemos")
-                break
-            }
+        val menuPrincipal = MenuPrincipal()
+        println("Esta opcion genera un listado de números pares donde se requiere ingreses el numero inicial y el numero limite")
+        println("Ingresa tu numero par inicial")
+        var numberinitial = menuPrincipal.choseOne()
+        while (numberinitial % 2 != 0) {
+            println("recuerda que es un listado de numeros pares, debes elegir un número par inicial")
+            numberinitial = menuPrincipal.choseOne()
+        }
+        println("Ingresa tu numero par final")
+        val numberfinal = menuPrincipal.choseOne()
+        if (numberfinal % 2 != 0) println("recuerda que es un listado de numeros pares, debes elegir un número par final")
+        while (numberinitial <= numberfinal) {
+            println(numberinitial)
+            numberinitial += 2
+        }
+        println("¿Deseas generar otra serie de números nones?")
+        println("1 .- Generar nueva serie")
+        println("2 .- Regresar al menu principal")
+        val outwhile = menuPrincipal.choseOne()
+        while (outwhile != 2) {
+            println("Bye")
         }
     }
-
-
 }

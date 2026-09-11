@@ -5,10 +5,9 @@ import estructureSlack.menuPrincipal.MenuPrincipal
 class WhenForEstructure {
 
     fun whenForEstructure2() {
-
+        do{
             val started = MenuPrincipal()
             val option1 = started.choseOne()
-
             when (option1) {
                 1 -> {
                     val forEstructure3 = ForEstructure()
@@ -39,7 +38,11 @@ class WhenForEstructure {
                     val forEstructure8 = ForEstructure()
                     forEstructure8.forListaIndice()
                 }
-
-        }
+                7 -> {
+                    println("Regreso al menu principal")
+                }
+            }
+            started.forEstructure()
+        }while(option1 != 7)
     }
 }

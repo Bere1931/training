@@ -27,7 +27,7 @@ class MenuPrincipal {
         println("4. For por intervalos")
         println("5. For lista")
         println("6. For para recorrer listas con indices")
-        println("7. Regresa al menu principal")
+        println("7. Regresar al menu principal")
     }
 
     fun choseOne(): Int {
@@ -68,15 +68,11 @@ class MenuPrincipal {
                 }
 
             5 -> {
-                forEstructure()
-
-                    val ultimate = choseOne()
-                while(ultimate != 6){
+                    forEstructure()
                     val whenForEs = WhenForEstructure()
-                    whenForEs.whenForEstructure2()
-                //Aqui se mostrara la estructura For
-                    }
-                }
+                        whenForEs.whenForEstructure2()
+                    //Aqui se mostrara la estructura For
+            }
         }
     }
 }

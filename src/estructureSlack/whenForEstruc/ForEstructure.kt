@@ -6,10 +6,10 @@ class ForEstructure {
 
         fun forNormal(){
 
-            println("Ingresa tu primer numero:")
+            println("Al ingresar tu primer numero debes considerar que sea menor al segundo")
             val init0 = MenuPrincipal()
             val numb1 = init0.choseOne()
-            println("Ingresa tu segundo nùmero")
+            println("Favor de ingresar el segundo nùmero considerandolo mayor al primero")
             val init1 = MenuPrincipal()
             val numb2 = init1.choseOne()
 
@@ -18,15 +18,15 @@ class ForEstructure {
                 for (i in numb1 .. numb2){
                     println(i)
                 }
-            } else println("Tu segundo numero no puede ser menor al primero")
+            } else println("Recuerda tu segundo numero no puede ser menor al primero")
 
         }
 
         fun forReverso(){
-            println("Ingresa tu primer numero: ")
+            println("Favor de ingresar el primer nùmero considerandolo mayor al segundo")
             val init2 = MenuPrincipal()
             val numb1 = init2.choseOne()
-            println("Ingresa tu segundo numero: ")
+            println("Al ingresar tu segundo numero debes considerar que sea menor al primero")
             val init3 = MenuPrincipal()
             val numb2 = init3.choseOne()
 
@@ -41,10 +41,10 @@ class ForEstructure {
         }
 
         fun forHastaNum(){
-            println("Ingresa tu primer numero: ")
+            println("Al ingresar tu primer numero debes considerar que sea menor al segundo")
             val init4 = MenuPrincipal()
             val numb1 = init4.choseOne()
-            println("Ingresa tu segundo numero: ")
+            println("Favor de ingresar el segundo nùmero considerandolo mayor al primero")
             val init5 = MenuPrincipal()
             val numb2 = init5.choseOne()
 
@@ -58,10 +58,10 @@ class ForEstructure {
         }
 
         fun forInterva(){
-            println("Ingresa tu primer numero: ")
+            println("Al ingresar tu primer numero debes considerar que sea menor al segundo")
             val init6 = MenuPrincipal()
             val numb1 = init6.choseOne()
-            println("Ingresa tu segundo numero: ")
+            println("Favor de ingresar el segundo nùmero considerandolo mayor al primero")
             val init7 = MenuPrincipal()
             val numb2 = init7.choseOne()
             println("Ingresa el intervalo entre numeros: ")

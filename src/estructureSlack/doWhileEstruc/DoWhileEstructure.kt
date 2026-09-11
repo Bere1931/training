@@ -6,18 +6,26 @@ class DoWhileEstructure {
 
     fun doWhileEstructure1(){
 
-        do{
-            println("Por favor selecciona la opcion que deseas")
-            println("1.Continuar en este menu")
-            println("2.Salir de este menu")
+        do {
             val menuPrincipal = MenuPrincipal()
-            val election = menuPrincipal.choseOne()
-                if(election == 2){
-                println("Nos vemos")
-                break
-                }
-
-        } while(true)
-
+            println("Esta opcion genera un listado de números nones donde se requiere ingreses el numero inicial y el numero limite")
+            println("Ingresa tu numero non inicial")
+            var numberinitial = menuPrincipal.choseOne()
+             while (numberinitial % 2 == 0) {
+                println("recuerda que es un listado de numeros nones, debes elegir un número non inicial")
+                numberinitial = menuPrincipal.choseOne()
+            }
+            println("Ingresa tu numero non final")
+            val numberfinal = menuPrincipal.choseOne()
+            if (numberfinal % 2 == 0) println("recuerda que es un listado de numeros nones, debes elegir un número non final")
+            while (numberinitial <= numberfinal) {
+                println(numberinitial)
+                numberinitial += 2
+            }
+            println("¿Deseas generar otra serie de números nones?")
+            println("1 .- Generar nueva serie")
+            println("2 .- Regresar al menu principal")
+            val outdowhile = menuPrincipal.choseOne()
+        } while (outdowhile != 2)
     }
 }
